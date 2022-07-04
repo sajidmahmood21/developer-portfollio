@@ -8,18 +8,23 @@ h1 {
 
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .darkblue-color {
     color: darkblue;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
 
 .half-width {
     width: 50%;
-    padding: 2%;
+    padding-left: 2%;
+
 }
 
 .half-width img {
@@ -43,5 +48,33 @@ section {
 .Dream-Big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background position: right;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: none;
+    background-position: left;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+#full-stack-developer {
+    border-left: 7px solid tomato;
+}
+
+#Baby-web-developer {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
